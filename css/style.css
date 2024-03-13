@@ -1,7 +1,11 @@
 /* Add a black background color to the top navigation */
+*{
+  margin: 0;
+}
 .topnav {
-    background-color: #333;
+    background-color: rgb(117, 0, 0);
     overflow: hidden;
+    height: 60px;
   }
   
   /* Style the links inside the navigation bar */
@@ -23,8 +27,9 @@
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #0e0e0e;
     color: white;
+    height: 100%;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
