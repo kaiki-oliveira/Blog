@@ -61,4 +61,13 @@
     }
   }
 
+.galery{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.galery .image{
+    margin: 3%;
+}
   
